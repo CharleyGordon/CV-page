@@ -30,7 +30,7 @@ img {
 
 html,
 body,
-header {
+ {
   width: 100%;
 }
 
@@ -83,6 +83,7 @@ header {
   padding: 0.5rem;
   background-color: var(--header-background);
   box-shadow: 0 0 10px 0 white;
+  font-size: 2rem;
   z-index: 1;
 }
 
