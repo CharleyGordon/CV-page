@@ -24,7 +24,6 @@ function type({ element, pendingClassname, charArray = [], finished = false }) {
 
 function lightSection(event, className = "current") {
   let { target } = event;
-  console.dir({ target });
   if (!target.matches("a")) return;
   for (anchor of headerAnchors) {
     anchor.classList.remove(className);
@@ -39,7 +38,6 @@ function preventDeatailsClose(event) {
 
 function redirect(event) {
   const { target } = event;
-  console.dir({ target });
 
   if (!target.closest(".gmail") && !target.closest(".github")) return;
   if (target.matches("a")) return;
