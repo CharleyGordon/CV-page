@@ -17,6 +17,8 @@ function type({ element, pendingClassname, charArray = [], finished = false }) {
       element.textContent += string;
       return type({ element, pendingClassname, charArray, finished });
     }, 30);
+  } else {
+    element.classList.remove(pendingClassname);
   }
 }
 
