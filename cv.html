@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="shortcut icon" href="images/like-svgrepo-com.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav data-grid>
+          <ul data-grid>
+            <li><a href="#skills">Umiejętności</a></li>
+            <li><a href="#works">Prace</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container" data-grid="">
+        <article id="skills">
+          <h2>moje umiejętności:</h2>
+          <ul>
+            <li class="code">
+              <details open>
+                <summary data-grid>Języki programowania:</summary>
+                <ul>
+                  <li class="extended-padding">
+                    <figure data-grid>
+                      <img src="images/jsLogo.png" alt="logo javascript" />
+                      <figcaption>
+                        <p>
+                          Dobrze radzę sobie z manipulacją elementów na stronie.
+                          Umiem korzystać z Oddzielnych API, jak równierz
+                          korzystać z funkcji asynchronicznych. Posiadam
+                          znajomość dogmatu SOLID.
+                        </p>
+                      </figcaption>
+                    </figure>
+                  </li>
+                  <li class="extended-padding">
+                    <figure data-grid>
+                      <img
+                        src="images/phpLogo.png"
+                        alt="logo php"
+                        class="reversed"
+                      />
+                      <figcaption class="reversed">
+                        <p>
+                          Opanowałem PHP na podstawowym poziomie, aby móc
+                          redagować kod, generować strony, a także nawiązywać
+                          połączenie z serwerem SQL.
+                        </p>
+                      </figcaption>
+                    </figure>
+                  </li>
+                  <li class="extended-padding">
+                    <figure data-grid>
+                      <img src="images/sqlLogo.png" alt="logo SQL" />
+                      <figcaption>
+                        <p>
+                          Znam SQL na poziomie, umożliwiającym tworzenie zapytań
+                          (w tym używając left oraz right JOIN), widoków oraz
+                          użytkowników.
+                        </p>
+                      </figcaption>
+                    </figure>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary data-grid>narzędzia:</summary>
+                <ul class="tools" data-grid>
+                  <li>
+                    <figure data-grid>
+                      <img src="images/gitLogo.png" alt="logo GIT" />
+                      <figcaption>GIT</figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure data-grid>
+                      <img src="images/npmLogo.png" alt="logo npm" />
+                      <figcaption>NPM</figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure data-grid>
+                      <img src="images/webpackLogo.svg" alt="logo webpack" />
+                      <figcaption>web<br />pack</figcaption>
+                    </figure>
+                  </li>
+                  <li>
+                    <figure data-grid>
+                      <img src="images/eslintLogo.svg" alt="logo eslint" />
+                      <figcaption>eslint</figcaption>
+                    </figure>
+                  </li>
+
+                  <li>
+                    <figure data-grid>
+                      <img src="images/devtoolsLogo.svg" alt="logo devTools" />
+                      <figcaption>dev<br />Tools</figcaption>
+                    </figure>
+                  </li>
+
+                  <li>
+                    <figure data-grid>
+                      <img
+                        class="inverted"
+                        src="images/markdown.svg "
+                        alt="logo markdown"
+                      />
+                      <figcaption>mark<br />down</figcaption>
+                    </figure>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details class="speech" open>
+                <summary>
+                  semantyczny
+                  <abbr class="html" title="Hypertext Markup Language"
+                    >HTML</abbr
+                  >
+                  oraz dobra znajomość
+                  <abbr class="css" title="Cascading Style Sheets">CSS</abbr>
+                </summary>
+                <div class="info">
+                  <p>
+                    Większość moich prac nie opiera się na samych DIV'ach.
+                    Staram się poszerzać swoją wiedzę z zakresu web
+                    accesibility.
+                  </p>
+                  <p>
+                    Przy kodowaniu stron opieram się głównie o GRID, jednak
+                    równie dobrze znam flexbox. Potrafię korzystać z animacji,
+                    tranzycji i transformacji elementów.
+                  </p>
+                </div>
+              </details>
+            </li>
+          </ul>
+        </article>
+        <article id="works">
+          <h2>Moje prace:</h2>
+          <figure class="showcase" data-grid>
+            <figure class="work kitchen" data-grid>
+              <img src="images/kitchen.png" alt="strona fit kithcen" />
+              <figcaption>
+                <a
+                  href="https://charleygordon.github.io/restaurant-page/"
+                  target="_blank"
+                  >Projekt strony restauracji</a
+                  <figure data-grid>
+                >
+              </figcaption>
+            </figure>
+
+            <figure class="work notifications" data-grid>
+              <img
+                src="images/notifications.png"
+                alt="strona z powiadomieniami"
+              />
+              <figcaption>
+                <a
+                  href="https://charleygordon.github.io/notifications-page-main/"
+                  >Projekt strony z powiadomieniami</a
+                >
+              </figcaption>
+            </figure>
+            <figure class="work news" data-grid>
+              <img src="images/newsPage.png" alt="strona wiadomości" />
+              <figcaption>
+                <a
+                  href="https://earnest-eclair-6d28a3.netlify.app/"
+                  target="_blank"
+                  >Projekt strony wiadomości</a
+                >
+              </figcaption>
+            </figure>
+          </figure>
+        </article>
+        <article id="contact">
+          <h2>Kontakt:</h2>
+          <figure data-grid>
+            <figure class="github" data-grid="">
+              <img src="images/githubLogo.svg" alt="log github" />
+              <figcaption>
+                <a href="https://github.com/CharleyGordon" target="_blank"
+                  >Mój github</a
+                >
+              </figcaption>
+            </figure>
+
+            <figure class="gmail" data-grid="">
+              <img src="images/gmailLogo.svg" alt="logo gmail" />
+              <figcaption>
+                <a href="mailto:nicksawage@gmail.com">Napisz do mnie</a>
+              </figcaption>
+            </figure>
+          </figure>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
